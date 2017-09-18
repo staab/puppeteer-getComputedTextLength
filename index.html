@@ -1,0 +1,17 @@
+<html>
+  <head>
+  </head>
+  </body>
+    <svg>
+      <text x="10" y="30">
+        <tspan>Testing text</tspan>
+      </text>
+    </svg>
+    <script type="text/javascript">
+      var tspan = document.getElementsByTagName('tspan')[0]
+
+      console.log('tspan.getComputedTextLength', tspan.getComputedTextLength())
+      console.log('tspan.getBBox().width', tspan.getBBox().width)
+    </script>
+  </body>
+</html>
